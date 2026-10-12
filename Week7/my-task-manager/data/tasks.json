@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "description": "Finish Script Programming Week 7 activity",
+        "completed": true,
+        "priority": "High"
+    },
+    {
+        "id": 2,
+        "description": "Push my-task-manager to GitHub",
+        "completed": false,
+        "priority": "Medium"
+    },
+    {
+        "id": 3,
+        "description": "AAA",
+        "completed": false,
+        "priority": "Medium"
+    },
+    {
+        "id": 4,
+        "description": "BBB",
+        "completed": false,
+        "priority": "Low"
+    }
+]

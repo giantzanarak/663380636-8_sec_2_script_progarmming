@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Temporary file used while saving
+data/tasks.json.tmp
+
+# data/tasks.json is committed on purpose so the result (1 DONE + 1 PENDING) can be reviewed.
