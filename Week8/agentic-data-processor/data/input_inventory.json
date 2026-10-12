@@ -1,0 +1,32 @@
+[
+    {
+        "id": "PROD001",
+        "name": "Laptop Pro",
+        "category": "Electronics",
+        "stock": 50,
+        "details": {
+            "brand": "TechCorp",
+            "model": "XPS 15"
+        }
+    },
+    {
+        "id": "PROD002",
+        "name": "Mechanical Keyboard",
+        "category": "Peripherals",
+        "stock": 120,
+        "details": {
+            "brand": "KeyMaster",
+            "layout": "US ANSI"
+        }
+    },
+    {
+        "id": "PROD003",
+        "name": "Ergonomic Mouse",
+        "category": "Peripherals",
+        "stock": 80,
+        "details": {
+            "brand": "ErgoGear",
+            "dpi": 1600
+        }
+    }
+]

@@ -1,0 +1,85 @@
+{
+    "tasks": [
+        {
+            "name": "Load Sales Data CSV",
+            "type": "load_csv",
+            "file_path": "data/input_sales.csv",
+            "output_data_key": "raw_sales_data"
+        },
+        {
+            "name": "Aggregate Sales by Customer",
+            "type": "transform_csv_aggregate",
+            "input_data_key": "raw_sales_data",
+            "output_data_key": "customer_sales_summary",
+            "group_by_field": "Customer",
+            "aggregate_field": "Amount",
+            "aggregate_type": "sum"
+        },
+        {
+            "name": "Save Aggregated Sales CSV",
+            "type": "save_csv",
+            "file_path": "data/processed_sales_by_customer.csv",
+            "input_data_key": "customer_sales_summary",
+            "fieldnames": ["Customer", "Total_Amount"]
+        },
+        {
+            "name": "Convert Raw Sales to JSON",
+            "type": "csv_to_json_conversion",
+            "input_data_key": "raw_sales_data",
+            "output_data_key": "raw_sales_json"
+        },
+        {
+            "name": "Save Raw Sales JSON",
+            "type": "save_json",
+            "file_path": "data/sales_data.json",
+            "input_data_key": "raw_sales_json",
+            "indent": 4
+        },
+        {
+            "name": "Load Inventory Data JSON",
+            "type": "load_json",
+            "file_path": "data/input_inventory.json",
+            "output_data_key": "raw_inventory_data"
+        },
+        {
+            "name": "Update Inventory Stock & Add Product",
+            "type": "update_json_data",
+            "input_data_key": "raw_inventory_data",
+            "output_data_key": "updated_inventory_data",
+            "updates": [
+                {"path": "0.stock", "value": 75, "operation": "set"},
+                {"path": "1.details.layout", "value": "UK ISO", "operation": "set"},
+                {"path": "2.details.dpi", "value": 2000, "operation": "set"},
+                {
+                    "path": "",
+                    "value": {
+                        "id": "PROD004",
+                        "name": "Smart Speaker",
+                        "category": "Audio",
+                        "stock": 40,
+                        "details": {
+                            "brand": "SoundGenius",
+                            "features": ["Voice Assistant", "Multi-room"]
+                        }
+                    },
+                    "operation": "add_to_list"
+                },
+                {"path": "PROD001.details.color", "value": "Space Grey", "operation": "set"}
+            ]
+        },
+        {
+            "name": "Query Specific Product Detail",
+            "type": "query_json_data",
+            "input_data_key": "updated_inventory_data",
+            "output_data_key": "queried_product_brand",
+            "path": "0.details.brand"
+        },
+        {
+            "name": "Save Updated Inventory JSON",
+            "type": "save_json",
+            "file_path": "data/updated_inventory.json",
+            "input_data_key": "updated_inventory_data",
+            "indent": 2
+        }
+    ]
+}

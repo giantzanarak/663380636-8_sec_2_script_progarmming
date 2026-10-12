@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+.ipynb_checkpoints/
+.vscode/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Generated output files (data/*.json, data/processed_*.csv and reports/)
+# are committed on purpose so they can be reviewed for the lab submission.

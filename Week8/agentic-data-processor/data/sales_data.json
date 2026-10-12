@@ -1,0 +1,72 @@
+[
+    {
+        "OrderID": 101,
+        "Product": "Laptop",
+        "Amount": 1200.5,
+        "Price": 1200.5,
+        "Customer": "Alice"
+    },
+    {
+        "OrderID": 102,
+        "Product": "Mouse",
+        "Amount": 25.0,
+        "Price": 25.0,
+        "Customer": "Bob"
+    },
+    {
+        "OrderID": 103,
+        "Product": "Keyboard",
+        "Amount": 75.25,
+        "Price": 75.25,
+        "Customer": "Alice"
+    },
+    {
+        "OrderID": 104,
+        "Product": "Monitor",
+        "Amount": 300.0,
+        "Price": 300.0,
+        "Customer": "Charlie"
+    },
+    {
+        "OrderID": 105,
+        "Product": "Webcam",
+        "Amount": 45.75,
+        "Price": 45.75,
+        "Customer": "Bob"
+    },
+    {
+        "OrderID": 106,
+        "Product": "External HDD",
+        "Amount": 90.0,
+        "Price": 90.0,
+        "Customer": "David"
+    },
+    {
+        "OrderID": 107,
+        "Product": "Headphones",
+        "Amount": 150.0,
+        "Price": 150.0,
+        "Customer": "Alice"
+    },
+    {
+        "OrderID": 108,
+        "Product": "USB Hub",
+        "Amount": 15.5,
+        "Price": 15.5,
+        "Customer": "Eve"
+    },
+    {
+        "OrderID": 109,
+        "Product": "Gaming Mouse",
+        "Amount": 60.0,
+        "Price": 60.0,
+        "Customer": "Bob"
+    },
+    {
+        "OrderID": 110,
+        "Product": "SSD",
+        "Amount": 200.0,
+        "Price": 200.0,
+        "Customer": "Charlie"
+    }
+]
