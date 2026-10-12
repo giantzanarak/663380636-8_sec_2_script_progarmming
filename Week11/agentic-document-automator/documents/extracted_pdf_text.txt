@@ -1,0 +1,30 @@
+--- Page 1 ---
+Enhanced Task Manager - Project Proposal
+Project Name: Enhanced Task Manager
+Document ID: PROJ-PROP-011
+Version: 1.0
+1. Background
+Small teams often track their work in scattered spreadsheets and chats.
+The Enhanced Task Manager collects tasks in one place and automates
+the reporting work around them.
+2. Goals
+- Create, update and complete tasks with priorities and due dates
+- Generate a monthly Word report automatically from a template
+- Protect shared PDFs with a CONFIDENTIAL watermark
+- Merge project documents into a single PDF
+Page 1 of 2
+
+
+--- Page 2 ---
+Enhanced Task Manager - Design
+3. Architecture
+A configuration-driven Document Agent reads a JSON file that lists
+the tasks to run. Each task type is dispatched to a handler:
+- generate_word_report  -> WordTasks
+- apply_pdf_watermark   -> PDFTasks
+- merge_pdfs            -> PDFTasks
+- extract_word_text / extract_pdf_text
+4. Audit Logging
+Every task writes an entry (timestamp, status, message) to an
+audit report saved as JSON in documents/reports/.
+Page 2 of 2

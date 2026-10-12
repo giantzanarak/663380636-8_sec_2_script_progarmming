@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+.ipynb_checkpoints/
+.vscode/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Office lock files created while a document is open
+~$*.docx
+
+# Generated documents (documents/*.pdf, *.docx, *.txt, reports/) are committed on purpose
+# so they can be reviewed for the lab submission.
