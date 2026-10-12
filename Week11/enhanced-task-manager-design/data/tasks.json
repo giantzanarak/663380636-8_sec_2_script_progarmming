@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "description": "อ่านเอกสาร PLAN.md และออกแบบสถาปัตยกรรม",
+        "completed": true,
+        "tags": [
+            "study",
+            "architecture",
+            "week11"
+        ],
+        "_type": "Task"
+    },
+    {
+        "id": 2,
+        "description": "ส่งงาน Class Activity 4 ใน Google Classroom",
+        "completed": false,
+        "tags": [
+            "assignment",
+            "university"
+        ],
+        "_type": "DueDateTask",
+        "due_date": "2026-10-20"
+    },
+    {
+        "id": 3,
+        "description": "Implement search_tasks, filter_tasks และ sort_tasks",
+        "completed": false,
+        "tags": [
+            "coding",
+            "python"
+        ],
+        "_type": "PriorityTask",
+        "priority": "High"
+    },
+    {
+        "id": 4,
+        "description": "เขียน unit test สำหรับ TaskManager",
+        "completed": false,
+        "tags": [
+            "testing",
+            "python"
+        ],
+        "_type": "PriorityTask",
+        "priority": "Medium"
+    },
+    {
+        "id": 5,
+        "description": "ทบทวนบทเรียน Week 10 Web APIs",
+        "completed": false,
+        "tags": [
+            "review",
+            "python"
+        ],
+        "_type": "DueDateTask",
+        "due_date": "2026-10-10"
+    },
+    {
+        "id": 6,
+        "description": "จัดโฟลเดอร์ screenshots ใน GitHub",
+        "completed": false,
+        "tags": [
+            "github"
+        ],
+        "_type": "PriorityTask",
+        "priority": "Low"
+    }
+]
