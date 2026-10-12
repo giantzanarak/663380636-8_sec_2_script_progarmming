@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+.ipynb_checkpoints/
+.vscode/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Excel lock files created while a workbook is open
+~$*.xlsx
+
+# data/output_report.xlsx is committed on purpose so it can be reviewed for the lab submission.
