@@ -1,0 +1,4 @@
+python-dotenv==1.0.1
+# only needed by create_sample_files.py
+reportlab==4.2.5
+openpyxl==3.1.5

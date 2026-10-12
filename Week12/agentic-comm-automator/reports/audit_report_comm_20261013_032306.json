@@ -1,0 +1,208 @@
+{
+    "mode": "live",
+    "context": {
+        "report_name": "DailySalesSummary",
+        "report_date": "2026-10-13",
+        "sales_figure": 12345.67,
+        "total_customers": 500,
+        "self_email": "pawat.wo@kkumail.com",
+        "report_email": {
+            "to": [
+                "pawat.wo@kkumail.com"
+            ],
+            "subject": "Daily Sales Report - 2026-10-13",
+            "attachments": [
+                "sales_report.pdf",
+                "summary_data.xlsx"
+            ]
+        },
+        "sales_sms": {
+            "message": "Sales 2026-10-13: $12,345.67 from 500 customers. Report emailed to pawat.wo@kkumail.com.",
+            "sent_to": [
+                "pawat.wo@kkumail.com"
+            ]
+        },
+        "inbox_result": {
+            "processed_count": 1,
+            "attachments_downloaded": 1,
+            "marked_as_read": 1,
+            "sms_alerts_sent": 1,
+            "replies_sent": 1,
+            "emails": [
+                {
+                    "uid": "3077",
+                    "from": "pawat.wo@kkumail.com",
+                    "subject": "Data Request for 2026-10-13 - Urgent",
+                    "rules": [
+                        {
+                            "rule": "Save request attachments",
+                            "actions": [
+                                "downloaded 1 attachment(s)",
+                                "marked as read"
+                            ]
+                        },
+                        {
+                            "rule": "Urgent SMS alert",
+                            "actions": [
+                                "SMS alert sent"
+                            ]
+                        },
+                        {
+                            "rule": "Auto-reply to data requests",
+                            "actions": [
+                                "auto-reply sent"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "audit_log": [
+        {
+            "timestamp": "2026-10-13T03:22:29",
+            "status": "INFO",
+            "task_type": "agent_run",
+            "message": "Communication Agent started (mode: live).",
+            "details": {}
+        },
+        {
+            "timestamp": "2026-10-13T03:22:29",
+            "status": "INFO",
+            "task_type": "send_email",
+            "message": "Starting task 'Send Daily Sales Report Email'",
+            "details": {}
+        },
+        {
+            "timestamp": "2026-10-13T03:22:35",
+            "status": "SUCCESS",
+            "task_type": "send_email",
+            "message": "Task 'Send Daily Sales Report Email' completed.",
+            "details": {
+                "to": [
+                    "pawat.wo@kkumail.com"
+                ],
+                "subject": "Daily Sales Report - 2026-10-13",
+                "attachments": [
+                    "sales_report.pdf",
+                    "summary_data.xlsx"
+                ]
+            }
+        },
+        {
+            "timestamp": "2026-10-13T03:22:35",
+            "status": "INFO",
+            "task_type": "send_sms",
+            "message": "Starting task 'Send Sales Summary SMS'",
+            "details": {}
+        },
+        {
+            "timestamp": "2026-10-13T03:22:41",
+            "status": "SUCCESS",
+            "task_type": "send_sms",
+            "message": "Task 'Send Sales Summary SMS' completed.",
+            "details": {
+                "message": "Sales 2026-10-13: $12,345.67 from 500 customers. Report emailed to pawat.wo@kkumail.com.",
+                "sent_to": [
+                    "pawat.wo@kkumail.com"
+                ]
+            }
+        },
+        {
+            "timestamp": "2026-10-13T03:22:41",
+            "status": "INFO",
+            "task_type": "send_email",
+            "message": "Starting task 'Simulate Incoming Request Email (to self)'",
+            "details": {}
+        },
+        {
+            "timestamp": "2026-10-13T03:22:47",
+            "status": "SUCCESS",
+            "task_type": "send_email",
+            "message": "Task 'Simulate Incoming Request Email (to self)' completed.",
+            "details": {
+                "to": [
+                    "pawat.wo@kkumail.com"
+                ],
+                "subject": "Data Request for 2026-10-13 - Urgent",
+                "attachments": [
+                    "sales_report.pdf"
+                ]
+            }
+        },
+        {
+            "timestamp": "2026-10-13T03:22:47",
+            "status": "INFO",
+            "task_type": "process_inbox",
+            "message": "Starting task 'Process Incoming Data Requests'",
+            "details": {}
+        },
+        {
+            "timestamp": "2026-10-13T03:22:51",
+            "status": "INFO",
+            "task_type": "process_inbox",
+            "message": "Rule 'Save request attachments' matched email UID 3077: downloaded 1 attachment(s), marked as read",
+            "details": {
+                "subject": "Data Request for 2026-10-13 - Urgent"
+            }
+        },
+        {
+            "timestamp": "2026-10-13T03:22:56",
+            "status": "INFO",
+            "task_type": "process_inbox",
+            "message": "Rule 'Urgent SMS alert' matched email UID 3077: SMS alert sent",
+            "details": {
+                "subject": "Data Request for 2026-10-13 - Urgent"
+            }
+        },
+        {
+            "timestamp": "2026-10-13T03:23:01",
+            "status": "INFO",
+            "task_type": "process_inbox",
+            "message": "Rule 'Auto-reply to data requests' matched email UID 3077: auto-reply sent",
+            "details": {
+                "subject": "Data Request for 2026-10-13 - Urgent"
+            }
+        },
+        {
+            "timestamp": "2026-10-13T03:23:01",
+            "status": "SUCCESS",
+            "task_type": "process_inbox",
+            "message": "Task 'Process Incoming Data Requests' completed.",
+            "details": {
+                "processed_count": 1,
+                "attachments_downloaded": 1,
+                "marked_as_read": 1,
+                "sms_alerts_sent": 1,
+                "replies_sent": 1
+            }
+        },
+        {
+            "timestamp": "2026-10-13T03:23:01",
+            "status": "INFO",
+            "task_type": "send_email",
+            "message": "Starting task 'Send Workflow Summary Email'",
+            "details": {}
+        },
+        {
+            "timestamp": "2026-10-13T03:23:06",
+            "status": "SUCCESS",
+            "task_type": "send_email",
+            "message": "Task 'Send Workflow Summary Email' completed.",
+            "details": {
+                "to": [
+                    "pawat.wo@kkumail.com"
+                ],
+                "subject": "Agent Workflow Summary - 2026-10-13",
+                "attachments": []
+            }
+        },
+        {
+            "timestamp": "2026-10-13T03:23:06",
+            "status": "INFO",
+            "task_type": "agent_run_summary",
+            "message": "Finished 5/5 tasks successfully in 37.36s.",
+            "details": {}
+        }
+    ]
+}

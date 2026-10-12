@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.vscode/
+
+# Environment / credentials - NEVER commit .env
+.env
+.venv/
+venv/
+env/
+
+# Mock mode mail storage (recreated on every run)
+data/mock_mailbox/
+data/outbox/
+
+# reports/ (audit logs) and data/incoming_attachments/ are committed on purpose
+# so the results can be reviewed for the lab submission.
