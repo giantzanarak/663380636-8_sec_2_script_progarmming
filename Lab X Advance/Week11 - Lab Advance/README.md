@@ -39,7 +39,7 @@ including fields in the footer. The rows in `table_data` become a table inserted
 ## How to Run
 
 ```bash
-cd "Lab X Advance/Lab 4 Advance"
+cd "Lab X Advance/Week11 - Lab Advance"
 python3 -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
 pip install -r requirements.txt

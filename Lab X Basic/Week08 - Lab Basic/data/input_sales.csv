@@ -1,0 +1,9 @@
+OrderID,Product,Amount,Price,Customer
+101,Laptop,1200.50,1200.50,Alice
+102,Mouse,25.00,25.00,Bob
+103,Keyboard,75.25,75.25,Alice
+104,Monitor,300.00,300.00,Charlie
+105,Webcam,45.75,45.75,Bob
+106,External HDD,90.00,90.00,David
+107,Headphones,150.00,150.00,Alice
+108,USB Hub,15.50,15.50,Eve

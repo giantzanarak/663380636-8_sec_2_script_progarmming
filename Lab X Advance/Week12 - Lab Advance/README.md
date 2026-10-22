@@ -54,7 +54,7 @@ for testing the workflow before using a real mailbox.
 ## Setup & How to Run
 
 ```bash
-cd "Lab X Advance/Lab 5 Advance"
+cd "Lab X Advance/Week12 - Lab Advance"
 python3 -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
 pip install -r requirements.txt

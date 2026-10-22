@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+.ipynb_checkpoints/
+.vscode/
+.env
+.venv/
+venv/
+env/
+# data/output_*.{csv,json} are committed on purpose so the results can be reviewed.

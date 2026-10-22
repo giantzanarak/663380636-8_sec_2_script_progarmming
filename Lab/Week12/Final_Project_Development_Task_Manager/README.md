@@ -35,7 +35,7 @@ Tags are normalized (trimmed, lower-case, no duplicates), so `GitHub`, ` github`
 ## How to Run
 
 ```bash
-cd "mini Project/final_task_manager_project"
+cd Lab/Week12/Final_Project_Development_Task_Manager
 python3 main.py                       # start the CLI
 python3 main.py --debug               # also show debug log lines in the terminal
 python3 -m unittest discover tests    # 24 unit tests

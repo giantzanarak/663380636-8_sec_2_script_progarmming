@@ -42,7 +42,7 @@ An audit report of every step is written to `reports/audit_report_<timestamp>.js
 ## How to Run
 
 ```bash
-cd "Lab X Advance/Lab 2 Advance"
+cd "Lab X Advance/Week08 - Lab Advance"
 python3 -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
 python main.py

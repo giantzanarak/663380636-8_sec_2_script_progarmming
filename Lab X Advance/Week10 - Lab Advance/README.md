@@ -36,7 +36,7 @@ Every step (success / warning / error) is recorded in the **Audit Log** sheet, w
 ## How to Run
 
 ```bash
-cd "Lab X Advance/Lab 3 Advance"
+cd "Lab X Advance/Week10 - Lab Advance"
 python3 -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
 pip install -r requirements.txt
