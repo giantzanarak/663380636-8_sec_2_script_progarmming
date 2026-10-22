@@ -17,6 +17,33 @@
 | [Final Project](Final%20Project) | HOW DO YOU FISH (ลิงก์ไปยัง repository ของกลุ่ม) |
 | [certificate](certificate) | Cisco NetAcad: Python Essentials 1 และ 2 |
 
+
+## โครงสร้างไฟล์ (File Structure)
+
+```
+663380636-8_sec_2_script_progarmming/
+├── Lab/                 Lab ประจำสัปดาห์
+│   ├── Week01 … Week06/      ไฟล์ .ipynb (Lab, Activity, Recap)
+│   └── Week12/               Final Project Development (Enhanced Task Manager)
+├── Class Activity/      Class Activity 1–4
+│   └── Week07 - Class Activity 1/ … Week11 - Class Activity 4/
+├── Lab X Basic/         LabX BASIC
+│   └── Week07 - Lab Basic/ … Week12 - Lab Basic/
+├── Lab X Advance/       LabX ADV
+│   └── Week07 - Lab Advance/ … Week12 - Lab Advance/
+├── mini Project/        README.md สรุปโปรเจกต์ + ลิงก์ไปยัง repository ของกลุ่ม
+├── Final Project/       README.md สรุปโปรเจกต์ + ลิงก์ไปยัง repository ของกลุ่ม
+└── certificate/         ภาพ (.png) และไฟล์ PDF ของ certificate จาก netacad.com
+```
+
+**ส่วนที่ต่างจากโครงสร้างที่กำหนด**
+
+* **เพิ่มโฟลเดอร์ `Class Activity/`** — แยก Class Activity 1–4 ออกจาก Lab ประจำสัปดาห์ ให้ตรงกับหัวข้อ *Class Activity* ใน Google Classroom
+* **ตั้งชื่อโฟลเดอร์ย่อยตามสัปดาห์** (เช่น `Week07 - Lab Basic` แทน `Lab 1 Basic`) เพื่อให้ตรงกับชื่องานใน Classroom
+  (*LAB Basic 1 (week 7)*, *Lab Basic Week 8*, *Week10_LabX BASIC* …) ใช้เลข 2 หลัก (`Week07`) เพื่อให้ GitHub เรียงลำดับสัปดาห์ถูกต้อง
+* **mini Project และ Final Project เป็นงานกลุ่มใน repository อื่น** จึงใช้ไฟล์ `README.md` ที่สรุปงานและบทบาทของผู้จัดทำ พร้อมลิงก์ไปยัง repository นั้น
+* แต่ละโปรเจกต์มี `README.md` ของตัวเอง อธิบายวิธีรัน ผลลัพธ์ และภาพ screenshot
+
 ---
 
 ## Lab — Lab ประจำสัปดาห์
