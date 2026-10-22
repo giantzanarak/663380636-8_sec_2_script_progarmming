@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "description": "Complete Week 12 final project documentation",
+        "completed": false,
+        "tags": [
+            "study",
+            "final-project",
+            "urgent"
+        ],
+        "_type": "Task"
+    },
+    {
+        "id": 2,
+        "description": "Submit final project source code to GitHub",
+        "completed": false,
+        "tags": [
+            "study",
+            "github"
+        ],
+        "_type": "DueDateTask",
+        "due_date": "2026-10-30"
+    },
+    {
+        "id": 3,
+        "description": "Prepare slides for the final project presentation",
+        "completed": false,
+        "tags": [
+            "presentation",
+            "urgent"
+        ],
+        "_type": "PriorityTask",
+        "priority": "High"
+    },
+    {
+        "id": 4,
+        "description": "Review PEP 8 and Python docstrings",
+        "completed": true,
+        "tags": [
+            "refactor",
+            "code-quality"
+        ],
+        "_type": "Task"
+    },
+    {
+        "id": 5,
+        "description": "Rehearse the live CLI demo",
+        "completed": false,
+        "tags": [
+            "demo",
+            "presentation"
+        ],
+        "_type": "PriorityTask",
+        "priority": "Medium"
+    },
+    {
+        "id": 6,
+        "description": "Midterm examination review",
+        "completed": true,
+        "tags": [
+            "exam",
+            "study"
+        ],
+        "_type": "DueDateTask",
+        "due_date": "2026-08-20"
+    },
+    {
+        "id": 7,
+        "description": "Clean up old lab folders in the repository",
+        "completed": false,
+        "tags": [
+            "github"
+        ],
+        "_type": "PriorityTask",
+        "priority": "Low"
+    }
+]
