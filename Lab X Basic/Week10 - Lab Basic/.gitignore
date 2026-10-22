@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+.vscode/
+.DS_Store
+~$*.xlsx
+# data/*.xlsx are committed on purpose so the input and the result can be reviewed.
