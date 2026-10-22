@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.vscode/
+.DS_Store
+
+# Credentials - NEVER commit .env
+.env
+
+# Attachments downloaded from the inbox at run time
+data/attachments/*
+!data/attachments/.gitkeep
