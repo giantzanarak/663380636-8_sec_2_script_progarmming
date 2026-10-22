@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environments / secrets
+.env
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.DS_Store
+
+# Runtime files
+logs/
+data/tasks.json.tmp
+
+# data/tasks.json is committed on purpose: it holds the demo tasks.
