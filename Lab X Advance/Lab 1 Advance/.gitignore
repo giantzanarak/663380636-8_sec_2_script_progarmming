@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+venv/
+env/
+.vscode/
+# data/ is tracked on purpose: data/scraped_products.json is the lab result
+.env
+geckodriver.log
+chromedriver.log

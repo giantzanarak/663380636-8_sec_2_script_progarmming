@@ -1,0 +1,13 @@
+# Python cache / virtual environments
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Secrets (e.g. Gmail App Password in Lab 5 Advance)
+.env
+
+# Editor / OS files
+.vscode/
+.DS_Store
+.claude/

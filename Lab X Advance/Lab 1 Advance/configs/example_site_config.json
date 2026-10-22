@@ -1,0 +1,14 @@
+{
+    "start_url": "https://books.toscrape.com/catalogue/category/books_1/index.html",
+    "max_pages": 3,
+    "delay_between_pages": 2,
+    "item_container_selector": "article.product_pod",
+    "pagination_selector": "li.next a",
+    "item_data_selectors": {
+        "name": "h3 a",
+        "price": "p.price_color",
+        "description": null,
+        "url": "h3 a",
+        "image_url": "div.image_container a img"
+    }
+}
