@@ -10,7 +10,7 @@
 | โฟลเดอร์ | เนื้อหา |
 |---|---|
 | [Lab](Lab) | Lab ประจำสัปดาห์ (Week 1–12) |
-| [Lab X Basic](Lab%20X%20Basic) | LabX BASIC (Week 7, 8, 10) |
+| [Lab X Basic](Lab%20X%20Basic) | LabX BASIC (Week 7, 8, 10, 11) |
 | [Lab X Advance](Lab%20X%20Advance) | LabX ADV (Week 7, 8, 10, 11, 12) |
 | [mini Project](mini%20Project) | ระบบยืม-คืนหนังสือ (Library System) (ลิงก์ไปยัง repository ของกลุ่ม) |
 | [Final Project](Final%20Project) | HOW DO YOU FISH (ลิงก์ไปยัง repository ของกลุ่ม) |
@@ -41,6 +41,7 @@
 | Week 7 | LAB Basic 1 (week 7): Introduction to Web Scraping (requests + BeautifulSoup) | [Week07 - Lab Basic](Lab%20X%20Basic/Week07%20-%20Lab%20Basic) |
 | Week 8 | Lab Basic Week 8: Automating with CSV and JSON Data | [Week08 - Lab Basic](Lab%20X%20Basic/Week08%20-%20Lab%20Basic) |
 | Week 10 | Week10_LabX BASIC: Automating Spreadsheets (Excel & Google Sheets) | [Week10 - Lab Basic](Lab%20X%20Basic/Week10%20-%20Lab%20Basic) |
+| Week 11 | Week 11_LabX BASIC: Automating PDFs & Word Documents | [Week11 - Lab Basic](Lab%20X%20Basic/Week11%20-%20Lab%20Basic) |
 
 ## Lab X Advance
 
