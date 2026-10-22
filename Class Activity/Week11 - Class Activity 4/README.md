@@ -12,7 +12,7 @@ working **search, filter and sort**. The design is documented in [PLAN.md](PLAN.
 ## How to Run
 
 ```bash
-cd Lab/Week11/Class_Activity_4_Enhanced_Task_Manager
+cd "Class Activity/Week11 - Class Activity 4"
 python3 main.py                         # CLI (Thai menu)
 python3 -m unittest discover -v         # 23 unit tests
 ```

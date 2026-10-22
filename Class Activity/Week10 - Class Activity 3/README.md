@@ -18,7 +18,7 @@ Network and data errors are handled without crashing.
 ## How to Run
 
 ```bash
-cd Lab/Week10/Class_Activity_3_Web_API_Fetcher
+cd "Class Activity/Week10 - Class Activity 3"
 python3 -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
 pip install -r requirements.txt

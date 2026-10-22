@@ -13,7 +13,7 @@ Menu option **2. List Tasks**: one task `Pending` and one task `Completed`.
 ## How to Run
 
 ```bash
-cd Lab/Week08/Class_Activity_2_OOP_Task_Manager
+cd "Class Activity/Week08 - Class Activity 2"
 python3 main.py                        # run the CLI
 python3 -m unittest discover -v        # run the 18 unit tests
 ```

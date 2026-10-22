@@ -9,7 +9,8 @@
 
 | โฟลเดอร์ | เนื้อหา |
 |---|---|
-| [Lab](Lab) | Lab ประจำสัปดาห์ (Week 1–12) |
+| [Lab](Lab) | Lab ประจำสัปดาห์ (Week 1–6, 12) |
+| [Class Activity](Class%20Activity) | Class Activity 1–4 (Week 7, 8, 10, 11) |
 | [Lab X Basic](Lab%20X%20Basic) | LabX BASIC (Week 7, 8, 10, 11, 12) |
 | [Lab X Advance](Lab%20X%20Advance) | LabX ADV (Week 7, 8, 10, 11, 12) |
 | [mini Project](mini%20Project) | ระบบยืม-คืนหนังสือ (Library System) (ลิงก์ไปยัง repository ของกลุ่ม) |
@@ -28,11 +29,16 @@
 | Week 4 | Data Structures: Lists & Tuples | [lab4.ipynb](Lab/Week04/lab4.ipynb) · [Week4_recap.ipynb](Lab/Week04/Week4_recap.ipynb) |
 | Week 5 | Dictionaries & Sets | [Lab5.ipynb](Lab/Week05/Lab5.ipynb) · [Activity5.ipynb](Lab/Week05/Activity5.ipynb) |
 | Week 6 | Functions & Modules | [Lab6.ipynb](Lab/Week06/Lab6.ipynb) · [Activity6.ipynb](Lab/Week06/Activity6.ipynb) · [my_utils.py](Lab/Week06/my_utils.py) |
-| Week 7 | Class Activity 1: Building a Simple CLI Application | [Class_Activity_1_CLI_Task_Manager](Lab/Week07/Class_Activity_1_CLI_Task_Manager) |
-| Week 8 | Class Activity 2: OOP Fundamentals & Refactoring | [Class_Activity_2_OOP_Task_Manager](Lab/Week08/Class_Activity_2_OOP_Task_Manager) |
-| Week 10 | Class Activity 3: Interacting with Web APIs | [Class_Activity_3_Web_API_Fetcher](Lab/Week10/Class_Activity_3_Web_API_Fetcher) |
-| Week 11 | Class Activity 4: Project Planning & Design | [Class_Activity_4_Enhanced_Task_Manager](Lab/Week11/Class_Activity_4_Enhanced_Task_Manager) |
 | Week 12 | Final Project Development & Presentation (Enhanced Task Manager) | [Final_Project_Development_Task_Manager](Lab/Week12/Final_Project_Development_Task_Manager) |
+
+## Class Activity
+
+| สัปดาห์ | งานใน Classroom | โฟลเดอร์ |
+|---|---|---|
+| Week 7 | Class activity 1 : Building a Simple CLI Application | [Week07 - Class Activity 1](Class%20Activity/Week07%20-%20Class%20Activity%201) |
+| Week 8 | Class_activity_2 : Object-Oriented Programming (OOP) Fundamentals & Refactoring the CLI Task Manager | [Week08 - Class Activity 2](Class%20Activity/Week08%20-%20Class%20Activity%202) |
+| Week 10 | Class activity 3 : Interacting with Web APIs: Fetching and Processing JSON Data | [Week10 - Class Activity 3](Class%20Activity/Week10%20-%20Class%20Activity%203) |
+| Week 11 | Class Activity 4 Project Planning & Design: Building an Enhanced Task Manager | [Week11 - Class Activity 4](Class%20Activity/Week11%20-%20Class%20Activity%204) |
 
 ## Lab X Basic
 

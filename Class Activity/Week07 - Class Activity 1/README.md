@@ -12,7 +12,7 @@ Menu option **2. List All Tasks**: one task `[DONE]` and one task `[PENDING]`.
 ## How to Run
 
 ```bash
-cd Lab/Week07/Class_Activity_1_CLI_Task_Manager
+cd "Class Activity/Week07 - Class Activity 1"
 python3 main.py
 ```
 
